@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Movies Details and Reviews Website (IMDb-like)",
+    "cover": "https://drive.google.com/uc?id=1ePk7KM4bqcJXyyF4Te7faX01j61Pn5sf",
+    "skills": [
+        {
+            "name" : "React JS",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+        },
+        {
+            "name" : "HTML",
+            "icon" : "https://img.freepik.com/free-icon/html-5_318-566077.jpg"
+        },
+        {
+            "name" : "CSS",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+        } 
+    ],
+
+    "desc": "I developed a dynamic Movies Details and Reviews website inspired by IMDb, utilizing React.js for the frontend and integrating the TMDB API for backend data retrieval. This project showcased my proficiency in modern web development and API integration",
+    "link": "https://filmex.riseimstechnologies.com/"
+  },
+  {
+    "name": "ASSIGNER - TASK ASSIGNER SYSTEM",
+    "cover": "https://drive.google.com/uc?id=1_6WW-dGCPadJlGyAm_8fWhDR12Vw79Y5",
+    "skills": [
+        {
+            "name" : "React JS",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+        },
+        {
+            "name" : "HTML",
+            "icon" : "https://img.freepik.com/free-icon/html-5_318-566077.jpg"
+        },
+        {
+            "name" : "CSS",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+        },
+        {
+            "name" : "Express JS",
+            "icon" : "https://inapp.com/wp-content/uploads/elementor/thumbs/express-js-01-1-q05uw85vt1jqloiy5k82sfy7tgvysgt1uqld8slsbc.png"
+        },
+        {
+            "name" : "MySQL",
+            "icon" : "https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+        },
+        {
+            "name" : "Git",
+            "icon" : "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+        },
+        {
+            "name" : "Tailwind CSS",
+            "icon" : "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png"
+        },
+        {
+            "name" : "Redux",
+            "icon" : "https://brandslogos.com/wp-content/uploads/images/large/redux-logo.png"
+        }
+    ],
+
+    "desc": "This is a fully functional e-commerce website which I built using React,Django and Django Rest Framework. In this website user can do all the things like adding product to cart or wishlist then ordering it. Also I added a powerfull authentication system so then user can easily login or logout. Also It has sorting functionality like low to hight, high to low and many more. All the products fetching from the API which I built in Django and Django Rest Framework",
+    "link": "https://assigner.riseimstechnologies.com/login"
+  },
+  {
+    "name": "E-Commerce Website",
+    "cover": "https://drive.google.com/uc?id=1rDBgTZQi7cCprRtZN0XDt72HwJ54nyyG",
+    "skills": [
+        {
+            "name" : "React JS",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+        },
+        {
+            "name" : "HTML",
+            "icon" : "https://img.freepik.com/free-icon/html-5_318-566077.jpg"
+        },
+        {
+            "name" : "CSS",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+        },
+        {
+            "name" : "Python",
+            "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+        },
+        {
+            "name" : "Django",
+            "icon" : "https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png"
+        },
+        {
+            "name" : "DRF",
+            "icon" : "https://www.django-rest-framework.org/img/logo.png"
+        }
+    ],
+
+    "desc": "This is a fully functional e-commerce website which I built using React,Django and Django Rest Framework. In this website user can do all the things like adding product to cart or wishlist then ordering it. Also I added a powerfull authentication system so then user can easily login or logout. Also It has sorting functionality like low to hight, high to low and many more. All the products fetching from the API which I built in Django and Django Rest Framework",
+    "link": "https://imscart.riseimstechnologies.com/"
+  }
+]

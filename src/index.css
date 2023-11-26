@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+*{
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#logo-name{
+    font-family: 'Ephesis', cursive;
+    
+}
+
+html{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}

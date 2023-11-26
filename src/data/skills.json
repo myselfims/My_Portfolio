@@ -1,0 +1,58 @@
+[
+    {
+        "name" : "JavaScript",
+        "icon" : "https://logosdownload.com/logo/javascript-logo-big.png"
+    },
+    {
+        "name" : "Python",
+        "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"
+    },
+    {
+        "name" : "Node JS",
+        "icon" : "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
+    },
+    {
+        "name" : "Express JS",
+        "icon" : "https://inapp.com/wp-content/uploads/elementor/thumbs/express-js-01-1-q05uw85vt1jqloiy5k82sfy7tgvysgt1uqld8slsbc.png"
+    },
+    {
+        "name" : "React JS",
+        "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+    },
+    {
+        "name" : "HTML",
+        "icon" : "https://img.freepik.com/free-icon/html-5_318-566077.jpg"
+    },
+    {
+        "name" : "CSS",
+        "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+    },
+    {
+        "name" : "Redux",
+        "icon" : "https://brandslogos.com/wp-content/uploads/thumbs/redux-logo-vector.svg"
+    },
+    {
+        "name" : "Django",
+        "icon" : "https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png"
+    },
+    {
+        "name" : "DRF",
+        "icon" : "https://www.django-rest-framework.org/img/logo.png"
+    },
+    {
+        "name" : "Tailwind CSS",
+        "icon" : "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png"
+    },
+    {
+        "name" : "Bootstrap",
+        "icon" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"
+    },
+    {
+        "name" : "MySQL",
+        "icon" : "https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png"
+    },
+    {
+        "name" : "Git",
+        "icon" : "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+    }
+]
