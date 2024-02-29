@@ -66,7 +66,6 @@ const Contact = () => {
                   Submit
                   </>
                   }
-                
                 </button>
                 </div>
             </form>
