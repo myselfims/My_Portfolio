@@ -5,6 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 import { CiDark } from "react-icons/ci";
 import { CiLight } from "react-icons/ci";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { FaFilePdf } from "react-icons/fa";
 
 const NavigationBar = ({ setDarkMode, darkMode }) => {
   const [navExpand, setNavExpand] = useState(false);
@@ -32,7 +33,7 @@ const NavigationBar = ({ setDarkMode, darkMode }) => {
           Contact
         </a>
       </div>
-      <div className="flex">
+      <div className="flex items-center">
         <div className="max-sm:absolute top-2 right-10">
           {darkMode ? (
             <CiLight
@@ -62,6 +63,7 @@ const NavigationBar = ({ setDarkMode, darkMode }) => {
         >
           <FaYoutube className="w-8 h-8 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
         </a>
+        <a className="p-2 rounded-xl bg-sky-500 text-white ml-4 hover:opacity-70 text-nowrap" download={true} href="src\assets\null new.pdf"><FaFilePdf className="inline w-5 h-5 mr-2"/>Resume download</a>
       </div>
       <GiHamburgerMenu
         onClick={() => (navExpand ? setNavExpand(false) : setNavExpand(true))}
