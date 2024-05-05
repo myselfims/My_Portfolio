@@ -51,6 +51,7 @@ const NavigationBar = ({ setDarkMode, darkMode }) => {
         <a target="_blank" href="https://github.com/myselfims">
           <FaGithub className="w-8 h-8 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
         </a>
+        
         <a
           target="_blank"
           href="https://www.linkedin.com/in/shaikh-imran-855b69221/"
