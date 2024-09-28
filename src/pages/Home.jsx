@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../images/mypngphoto.png";
+import photo from "../images/my_photo.png";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact2";
@@ -18,9 +18,9 @@ const Home = () => {
         className="flex pt-28 border-b max-sm:h-fit max-sm:flex-col h-[700px] overflow-hidden items-center justify-between"
       >
         <div className="relative overflow-hidden max-sm:flex hidden  flex-col items-center w-6/12 max-sm:w-fit h-[300px]">
-          <div className="group absolute right-[-80px] bottom-[-300px] w-[700px] h-[700px]  hover:w-[500px] hover:h-[500px] bg-sky-400 rotate-45 rounded-full max-sm:w-[500px] max-sm:h-[500px]"></div>
+          <div className="group absolute right-[-80px] bottom-[-300px] w-[500px] h-[500px]  hover:w-[500px] hover:h-[500px] bg-sky-400 rotate-45 rounded-full max-sm:w-[500px] max-sm:h-[500px]"></div>
           <img
-            className="z-10 group cursor-pointer w-[800px] transition-all "
+            className="z-10 group cursor-pointer w-[300px] transition-all "
             src={photo}
             alt=""
           />
@@ -59,7 +59,7 @@ const Home = () => {
         <div className="relative max-sm:hidden flex flex-col items-center w-6/12 max-sm:w-fit h-full">
           <div className="group absolute right-[-100px] bottom-[-200px] w-[700px] h-[700px]  hover:w-[500px] hover:h-[500px] bg-sky-400 rotate-45 rounded-full max-sm:w-[500px] max-sm:h-[500px]"></div>
           <img
-            className="z-10 group cursor-pointer w-[800px] transition-all "
+            className="z-10 group cursor-pointer w-[500px] transition-all "
             src={photo}
             alt=""
           />

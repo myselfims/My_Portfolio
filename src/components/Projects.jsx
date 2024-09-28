@@ -13,8 +13,8 @@ const Projects = () => {
         <h1 className="text-4xl">My projects</h1>
       </div>
       <div className="flex justify-between flex-wrap">
-        {projects.map((p, i) => (
-          <ProjectsCard index={i} key={p.name} setProject={setProject} project={p} />
+        {projects.map((p) => (
+          <ProjectsCard key={p.name} setProject={setProject} project={p} />
         ))}
       </div>
       {viewProject ? (

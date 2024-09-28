@@ -1,5 +1,6 @@
 [
   {
+    "id" : 1,
     "name": "Movies Details and Reviews Website (IMDb-like)",
     "cover": "src/assets/movies_cover.png",
     "github_url" : ["https://github.com/myselfims/filmex_react_app"],
@@ -22,6 +23,7 @@
     "link": "https://filmex.riseimstechnologies.com/"
   },
   {
+    "id": 2,
     "name": "ASSIGNER - TASK ASSIGNER SYSTEM",
     "cover": "src/assets/assigner_cover.png",
     "github_url" : ["https://github.com/myselfims/assigner_frontend","https://github.com/myselfims/assigner_backend"],
@@ -64,6 +66,7 @@
     "link": "https://assigner.riseimstechnologies.com/login"
   },
   {
+    "id" : 3,
     "name": "E-Commerce Website",
     "cover": "src/assets/ecommerce_cover.png",
     "github_url" : ["https://github.com/myselfims/IMS-Cart--React-Frontend","https://github.com/myselfims/IMS-Cart_Backend"],
