@@ -4,7 +4,7 @@ import assigner_cover from '../assets/assigner_cover.png'
 import ecommerce_cover from '../assets/ecommerce_cover.png'
 
 
-const ProjectsCard = ({project, setProject, i}) => {
+const ProjectsCard = ({project, setProject, index}) => {
 
   const covers = {
     1 : movies_cover,
@@ -15,7 +15,7 @@ const ProjectsCard = ({project, setProject, i}) => {
   return (
     <div onClick={()=>setProject(project)} className="w-[400px] rounded border p-2 max-sm:my-3 cursor-pointer hover:bg-sky-100 transition-all hover:scale-105">
         <div className="h-[185px]">
-            <img src={covers[i]} alt="" />
+            <img src={covers[index]} alt="" />
         </div>
         <div className="my-2">
             <h1>{project?.name}</h1>

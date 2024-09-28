@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     // lenis.start()
     lenis.on('scroll', (e) => {
-      console.log(e)
+      // console.log(e)
     })
   
     function raf(time) {
