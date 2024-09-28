@@ -7,7 +7,7 @@ import Lenis from 'lenis'
 function App() {
   const [darkMode,setDarkMode] = useState(false)
 
-  const lenis = new Lenis({duration: 10,  infinite: true, direction: 'alternate'})  
+  const lenis = new Lenis({duration: 1, direction: 'alternate'})  
 
   useEffect(() => {
     // lenis.start()
