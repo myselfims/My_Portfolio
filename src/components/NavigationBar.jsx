@@ -64,7 +64,7 @@ const NavigationBar = ({ setDarkMode, darkMode }) => {
         >
           <FaYoutube className="w-8 h-8 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
         </a>
-        <a target="_blank" className="p-2 rounded-xl bg-sky-500 text-white ml-4 hover:opacity-70 text-nowrap" href="https://drive.google.com/file/d/1abcGwek1R9ASw3UKvlYLywXnsMTKSVMA/view?usp=sharing"><FaFilePdf className="inline w-5 h-5 mr-2"/>Resume</a>
+        <a target="_blank" className="p-2 rounded-xl bg-sky-500 text-white ml-4 hover:opacity-70 text-nowrap" href="https://drive.google.com/file/d/1CxFalfxxkhOG8ryYgTy7AEPeHJWa3hsk/view?usp=sharing"><FaFilePdf className="inline w-5 h-5 mr-2"/>Resume</a>
       </div>
       <GiHamburgerMenu
         onClick={() => (navExpand ? setNavExpand(false) : setNavExpand(true))}

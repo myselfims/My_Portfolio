@@ -1,10 +1,28 @@
 import NavigationBar from "./components/NavigationBar";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Lenis from 'lenis'
 
 function App() {
   const [darkMode,setDarkMode] = useState(false)
+
+  const lenis = new Lenis({duration: 10,  infinite: true, direction: 'alternate'})  
+
+  useEffect(() => {
+    // lenis.start()
+    lenis.on('scroll', (e) => {
+      console.log(e)
+    })
+  
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+  
+    requestAnimationFrame(raf)
+  },[])
+
 
   return (
     <div className={`${darkMode? 'bg-slate-900 text-white':'bg-white text-black'} `}>
