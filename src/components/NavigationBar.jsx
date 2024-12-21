@@ -58,12 +58,12 @@ const NavigationBar = ({ setDarkMode, darkMode }) => {
         >
           <FaLinkedin className="w-8 h-8 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
         </a>
-        <a
+        {/* <a
           target="_blank"
           href="https://www.youtube.com/channel/UCGvabwylVv8oZbM443LEHTg"
         >
           <FaYoutube className="w-8 h-8 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
-        </a>
+        </a> */}
         <a target="_blank" className="p-2 rounded-xl bg-sky-500 text-white ml-4 hover:opacity-70 text-nowrap" href="https://drive.google.com/file/d/1CxFalfxxkhOG8ryYgTy7AEPeHJWa3hsk/view?usp=sharing"><FaFilePdf className="inline w-5 h-5 mr-2"/>Resume</a>
       </div>
       <GiHamburgerMenu
