@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../images/my_photo.png";
+import photo from "../images/header_image.png";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact2";
@@ -15,7 +15,7 @@ const Home = () => {
     <div className="">
       <div
         id="home"
-        className="flex pt-28 border-b max-sm:h-fit max-sm:flex-col h-[700px] overflow-hidden items-center justify-between"
+        className="flex pt-28 border-b max-sm:h-fit max-sm:flex-col h-[700px] overflow-hidden items-center justify-between relative"
       >
         <div className="relative overflow-hidden max-sm:flex hidden  flex-col items-center w-6/12 max-sm:w-fit h-[300px]">
           <div className="group absolute right-[-80px] bottom-[-300px] w-[500px] h-[500px]  hover:w-[500px] hover:h-[500px] bg-sky-400 rotate-45 rounded-full max-sm:w-[500px] max-sm:h-[500px]"></div>
@@ -37,7 +37,7 @@ const Home = () => {
               <Cursor />
             </span>
           </h2>
-          <p className="text-xl">
+          <p className="text-xl animtate-spin">
             Highly skilled and motivated Full Stack Developer with expertise in
             Python, Django, Django Rest Framework, HTML, CSS, JavaScript, React,
             MySQL, , Bootstrap, REST API, and JSON. Demonstrated proficiency in
@@ -49,17 +49,17 @@ const Home = () => {
           <div className="flex mt-5">
             <a
               href="#contact"
-              className="bg-sky-500 text-4xl text-white hover:bg-sky-600 transition-all px-4 py-1 rounded-md"
+              className="bg-sky-500 text-4xl text-white hover:bg-sky-600 transition-all px-4 py-1 rounded-md "
             >
               Hire Me
             </a>
           </div>
         </div>
 
-        <div className="relative max-sm:hidden flex flex-col items-center w-6/12 max-sm:w-fit h-full">
-          <div className="group absolute right-[-100px] bottom-[-200px] w-[700px] h-[700px]  hover:w-[500px] hover:h-[500px] bg-sky-400 rotate-45 rounded-full max-sm:w-[500px] max-sm:h-[500px]"></div>
+        <div className=" max-sm:hidden flex flex-col items-center max-sm:w-fit h-full bg-red-500">
+          <div className="absolute right-[-100px] bottom-[-200px] w-[700px] h-[700px] bg-sky-400 rotate-45 rounded-full max-sm:w-[500px] max-sm:h-[500px]"></div>
           <img
-            className="z-10 group cursor-pointer w-[500px] transition-all "
+            className="z-10 cursor-pointer w-[1200px] transition-all absolute -bottom-[350px] -right-[300px] animate-float"
             src={photo}
             alt=""
           />

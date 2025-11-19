@@ -17,12 +17,12 @@ const Footer = () => {
           >
             <FaLinkedin className="w-8 h-8 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
           </a>
-          <a
+          {/* <a
             target="_blank"
             href="https://www.youtube.com/channel/UCGvabwylVv8oZbM443LEHTg"
           >
             <FaYoutube className="w-8 h-8 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
-          </a>
+          </a> */}
         </div>
         <div className="my-10 text-xl">
           <h1 className="text-center">Made with ❤️ By Shaikh Imran</h1>
