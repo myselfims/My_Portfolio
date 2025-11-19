@@ -20,7 +20,7 @@
     ],
 
     "desc": "I developed a dynamic Movies Details and Reviews website inspired by IMDb, utilizing React.js for the frontend and integrating the TMDB API for backend data retrieval. This project showcased my proficiency in modern web development and API integration",
-    "link": "https://filmex.riseimstechnologies.com/"
+    "link": "https://filmexx.netlify.app/"
   },
   {
     "id": 2,
@@ -63,7 +63,7 @@
     ],
 
     "desc": "Implemented a user-friendly interface using React.js for the frontend and Express.js for the backend, ensuring seamless interaction.• Utilized MySQL as the database management system andSequelize ORM for efficient data handling and manipulation.• Integrated Firebase Storage for enabling users to upload profile pictures, enhancing personalization features.",
-    "link": "https://assigner.riseimstechnologies.com/login"
+    "link": "https://easyassigns.com/"
   },
   {
     "id" : 3,
@@ -98,6 +98,6 @@
     ],
 
     "desc": "This is a fully functional e-commerce website which I built using React,Django and Django Rest Framework. In this website user can do all the things like adding product to cart or wishlist then ordering it. Also I added a powerfull authentication system so then user can easily login or logout. Also It has sorting functionality like low to hight, high to low and many more. All the products fetching from the API which I built in Django and Django Rest Framework",
-    "link": "https://imscart.riseimstechnologies.com/"
+    "link": "https://imscart.netlify.app/"
   }
 ]

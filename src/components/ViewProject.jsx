@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import movies_cover from '../assets/movies_cover.png'
 import assigner_cover from '../assets/assigner_cover.png'
 import ecommerce_cover from '../assets/ecommerce_cover.png'
+import { IoOpenOutline } from "react-icons/io5";
 
 const ViewProject = ({ setProject, project }) => {
   const modal = useRef();
@@ -34,15 +35,20 @@ const ViewProject = ({ setProject, project }) => {
         <div className="body my-4">
           <div className="flex justify-between">
             <h1 className="text-2xl">{project?.name}</h1>
-            <div className="flex">
+            <div className="flex items-center justify-center"> 
                 {project.github_url.map((url)=>(
                     <a target="_blank" href={url}>
                     <FaGithub className="w-8 h-8 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
                     </a>
                 ))}
+                {project.link && (
+                  <a target="_blank" href={project?.link}>
+                    <IoOpenOutline className="w-6 h-6 mx-2 cursor-pointer hover:text-sky-500 transition-all" />
+                  </a>
+                )}
             </div>
           </div>
-          <div className="skills flex flex-wrap">
+          <div className="skills flex flex-wrap my-4">
             {project.skills.map((s) => (
               <div className="flex text-black my-1 border px-2 py-1 rounded items-center justify-center mx-1">
                 <img className="w-5 mr-2 h-5" src={s.icon} alt="" />
