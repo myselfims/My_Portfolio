@@ -4,6 +4,8 @@ import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 import Lenis from 'lenis'
 
+import MouseParticles from "./components/MouseParticles";
+
 function App() {
   const [darkMode, setDarkMode] = useState(false)
 
@@ -26,6 +28,7 @@ function App() {
 
   return (
     <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gradient-to-br from-gray-900 via-slate-900 to-black text-white' : 'bg-gradient-to-br from-blue-50 via-white to-purple-50 text-slate-900'}`}>
+      <MouseParticles />
       <nav className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${darkMode ? 'bg-black/70 border-white/10' : 'bg-white/70 border-black/5'} backdrop-blur-md border-b`}>
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
           <NavigationBar setDarkMode={setDarkMode} darkMode={darkMode} />
